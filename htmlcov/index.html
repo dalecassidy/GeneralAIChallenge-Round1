@@ -1,0 +1,1136 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">28%</span>
+        </h1>
+
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        
+        <span class="key">b</span>
+        <span class="key">p</span>
+        
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+
+<div id="index">
+    <table class="index">
+        <thead>
+            
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                
+                <th class="shortkey_b">branches</th>
+                <th class="shortkey_p">partial</th>
+                
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>19922</td>
+                <td>13472</td>
+                <td>0</td>
+                
+                <td>7514</td>
+                <td>308</td>
+                
+                <td class="right" data-ratio="7795 27436">28%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_FAdo_common_py.html">.tox/py35-linux/lib/python3.5/site-packages/FAdo/common.py</a></td>
+                <td>406</td>
+                <td>204</td>
+                <td>0</td>
+                
+                <td>62</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="202 468">43%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_FAdo_fa_py.html">.tox/py35-linux/lib/python3.5/site-packages/FAdo/fa.py</a></td>
+                <td>4271</td>
+                <td>3843</td>
+                <td>0</td>
+                
+                <td>2495</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="445 6766">7%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_FAdo_graphs_py.html">.tox/py35-linux/lib/python3.5/site-packages/FAdo/graphs.py</a></td>
+                <td>64</td>
+                <td>38</td>
+                <td>0</td>
+                
+                <td>18</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="26 82">32%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_FAdo_reex_py.html">.tox/py35-linux/lib/python3.5/site-packages/FAdo/reex.py</a></td>
+                <td>1070</td>
+                <td>818</td>
+                <td>0</td>
+                
+                <td>386</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="252 1456">17%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_FAdo_unionFind_py.html">.tox/py35-linux/lib/python3.5/site-packages/FAdo/unionFind.py</a></td>
+                <td>82</td>
+                <td>62</td>
+                <td>0</td>
+                
+                <td>34</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="21 116">18%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_FAdo_yappy_parser_py.html">.tox/py35-linux/lib/python3.5/site-packages/FAdo/yappy_parser.py</a></td>
+                <td>1397</td>
+                <td>1203</td>
+                <td>0</td>
+                
+                <td>730</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="194 2127">9%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_attr__compat_py.html">.tox/py35-linux/lib/python3.5/site-packages/attr/_compat.py</a></td>
+                <td>43</td>
+                <td>32</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="12 45">27%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_attr__config_py.html">.tox/py35-linux/lib/python3.5/site-packages/attr/_config.py</a></td>
+                <td>9</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="5 11">45%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_attr__funcs_py.html">.tox/py35-linux/lib/python3.5/site-packages/attr/_funcs.py</a></td>
+                <td>55</td>
+                <td>46</td>
+                <td>0</td>
+                
+                <td>36</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="9 91">10%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_attr__make_py.html">.tox/py35-linux/lib/python3.5/site-packages/attr/_make.py</a></td>
+                <td>322</td>
+                <td>111</td>
+                <td>0</td>
+                
+                <td>168</td>
+                <td>23</td>
+                
+                <td class="right" data-ratio="300 490">61%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_attr_filters_py.html">.tox/py35-linux/lib/python3.5/site-packages/attr/filters.py</a></td>
+                <td>15</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td>3</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="6 18">33%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_attr_validators_py.html">.tox/py35-linux/lib/python3.5/site-packages/attr/validators.py</a></td>
+                <td>33</td>
+                <td>10</td>
+                <td>0</td>
+                
+                <td>12</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="30 45">67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_cov_core_py.html">.tox/py35-linux/lib/python3.5/site-packages/cov_core.py</a></td>
+                <td>149</td>
+                <td>140</td>
+                <td>0</td>
+                
+                <td>34</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="10 183">5%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_coverage_collector_py.html">.tox/py35-linux/lib/python3.5/site-packages/coverage/collector.py</a></td>
+                <td>197</td>
+                <td>191</td>
+                <td>0</td>
+                
+                <td>84</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="8 281">3%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_coverage_control_py.html">.tox/py35-linux/lib/python3.5/site-packages/coverage/control.py</a></td>
+                <td>529</td>
+                <td>527</td>
+                <td>0</td>
+                
+                <td>242</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="3 771">1%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_future_standard_library___init___py.html">.tox/py35-linux/lib/python3.5/site-packages/future/standard_library/__init__.py</a></td>
+                <td>270</td>
+                <td>215</td>
+                <td>0</td>
+                
+                <td>102</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="58 372">16%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_future_utils___init___py.html">.tox/py35-linux/lib/python3.5/site-packages/future/utils/__init__.py</a></td>
+                <td>278</td>
+                <td>201</td>
+                <td>0</td>
+                
+                <td>104</td>
+                <td>9</td>
+                
+                <td class="right" data-ratio="86 382">23%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_nose_case_py.html">.tox/py35-linux/lib/python3.5/site-packages/nose/case.py</a></td>
+                <td>205</td>
+                <td>153</td>
+                <td>0</td>
+                
+                <td>46</td>
+                <td>7</td>
+                
+                <td class="right" data-ratio="59 251">24%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_nose_core_py.html">.tox/py35-linux/lib/python3.5/site-packages/nose/core.py</a></td>
+                <td>169</td>
+                <td>146</td>
+                <td>0</td>
+                
+                <td>58</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="29 227">13%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_nose_importer_py.html">.tox/py35-linux/lib/python3.5/site-packages/nose/importer.py</a></td>
+                <td>101</td>
+                <td>30</td>
+                <td>0</td>
+                
+                <td>48</td>
+                <td>12</td>
+                
+                <td class="right" data-ratio="105 149">70%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_nose_loader_py.html">.tox/py35-linux/lib/python3.5/site-packages/nose/loader.py</a></td>
+                <td>348</td>
+                <td>200</td>
+                <td>0</td>
+                
+                <td>200</td>
+                <td>37</td>
+                
+                <td class="right" data-ratio="229 548">42%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_nose_plugins_capture_py.html">.tox/py35-linux/lib/python3.5/site-packages/nose/plugins/capture.py</a></td>
+                <td>56</td>
+                <td>41</td>
+                <td>0</td>
+                
+                <td>10</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="19 66">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_nose_plugins_errorclass_py.html">.tox/py35-linux/lib/python3.5/site-packages/nose/plugins/errorclass.py</a></td>
+                <td>64</td>
+                <td>53</td>
+                <td>0</td>
+                
+                <td>27</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="21 91">23%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_nose_plugins_logcapture_py.html">.tox/py35-linux/lib/python3.5/site-packages/nose/plugins/logcapture.py</a></td>
+                <td>126</td>
+                <td>95</td>
+                <td>0</td>
+                
+                <td>34</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="41 160">26%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_nose_plugins_manager_py.html">.tox/py35-linux/lib/python3.5/site-packages/nose/plugins/manager.py</a></td>
+                <td>265</td>
+                <td>216</td>
+                <td>0</td>
+                
+                <td>100</td>
+                <td>7</td>
+                
+                <td class="right" data-ratio="76 365">21%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_nose_proxy_py.html">.tox/py35-linux/lib/python3.5/site-packages/nose/proxy.py</a></td>
+                <td>108</td>
+                <td>50</td>
+                <td>0</td>
+                
+                <td>30</td>
+                <td>12</td>
+                
+                <td class="right" data-ratio="74 138">54%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_nose_pyversion_py.html">.tox/py35-linux/lib/python3.5/site-packages/nose/pyversion.py</a></td>
+                <td>132</td>
+                <td>109</td>
+                <td>0</td>
+                
+                <td>44</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="28 176">16%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_nose_result_py.html">.tox/py35-linux/lib/python3.5/site-packages/nose/result.py</a></td>
+                <td>131</td>
+                <td>96</td>
+                <td>0</td>
+                
+                <td>58</td>
+                <td>12</td>
+                
+                <td class="right" data-ratio="51 189">27%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_nose_selector_py.html">.tox/py35-linux/lib/python3.5/site-packages/nose/selector.py</a></td>
+                <td>134</td>
+                <td>54</td>
+                <td>0</td>
+                
+                <td>51</td>
+                <td>19</td>
+                
+                <td class="right" data-ratio="110 185">59%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_nose_suite_py.html">.tox/py35-linux/lib/python3.5/site-packages/nose/suite.py</a></td>
+                <td>396</td>
+                <td>206</td>
+                <td>0</td>
+                
+                <td>178</td>
+                <td>29</td>
+                
+                <td class="right" data-ratio="279 574">49%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_nose_util_py.html">.tox/py35-linux/lib/python3.5/site-packages/nose/util.py</a></td>
+                <td>350</td>
+                <td>255</td>
+                <td>0</td>
+                
+                <td>169</td>
+                <td>21</td>
+                
+                <td class="right" data-ratio="136 519">26%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_nose_cov_py.html">.tox/py35-linux/lib/python3.5/site-packages/nose_cov.py</a></td>
+                <td>34</td>
+                <td>32</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 36">6%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_nose_exclude_py.html">.tox/py35-linux/lib/python3.5/site-packages/nose_exclude.py</a></td>
+                <td>92</td>
+                <td>73</td>
+                <td>0</td>
+                
+                <td>42</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="26 134">19%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_past_builtins___init___py.html">.tox/py35-linux/lib/python3.5/site-packages/past/builtins/__init__.py</a></td>
+                <td>10</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="10 14">71%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_past_builtins_misc_py.html">.tox/py35-linux/lib/python3.5/site-packages/past/builtins/misc.py</a></td>
+                <td>53</td>
+                <td>31</td>
+                <td>0</td>
+                
+                <td>14</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="25 67">37%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_past_builtins_noniterators_py.html">.tox/py35-linux/lib/python3.5/site-packages/past/builtins/noniterators.py</a></td>
+                <td>47</td>
+                <td>29</td>
+                <td>0</td>
+                
+                <td>13</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="19 60">32%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_past_translation___init___py.html">.tox/py35-linux/lib/python3.5/site-packages/past/translation/__init__.py</a></td>
+                <td>213</td>
+                <td>167</td>
+                <td>0</td>
+                
+                <td>68</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="46 281">16%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_past_types___init___py.html">.tox/py35-linux/lib/python3.5/site-packages/past/types/__init__.py</a></td>
+                <td>15</td>
+                <td>7</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="9 17">53%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_past_types_basestring_py.html">.tox/py35-linux/lib/python3.5/site-packages/past/types/basestring.py</a></td>
+                <td>12</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="10 14">71%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_past_types_olddict_py.html">.tox/py35-linux/lib/python3.5/site-packages/past/types/olddict.py</a></td>
+                <td>25</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="19 25">76%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_past_types_oldstr_py.html">.tox/py35-linux/lib/python3.5/site-packages/past/types/oldstr.py</a></td>
+                <td>33</td>
+                <td>16</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="17 39">44%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_past_utils___init___py.html">.tox/py35-linux/lib/python3.5/site-packages/past/utils/__init__.py</a></td>
+                <td>23</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="19 29">66%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_tox_py35-linux_lib_python3_5_site-packages_six_py.html">.tox/py35-linux/lib/python3.5/site-packages/six.py</a></td>
+                <td>444</td>
+                <td>228</td>
+                <td>0</td>
+                
+                <td>136</td>
+                <td>19</td>
+                
+                <td class="right" data-ratio="259 580">45%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="core_byte_channels_py.html">core/byte_channels.py</a></td>
+                <td>61</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td>12</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="65 73">89%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="core_channels_py.html">core/channels.py</a></td>
+                <td>82</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td>22</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="91 104">88%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="core_config_loader_py.html">core/config_loader.py</a></td>
+                <td>54</td>
+                <td>54</td>
+                <td>0</td>
+                
+                <td>18</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 72">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="core_environment_py.html">core/environment.py</a></td>
+                <td>173</td>
+                <td>18</td>
+                <td>0</td>
+                
+                <td>56</td>
+                <td>8</td>
+                
+                <td class="right" data-ratio="199 229">87%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="core_events_py.html">core/events.py</a></td>
+                <td>34</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="41 42">98%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="core_obs_observer_py.html">core/obs/observer.py</a></td>
+                <td>14</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="15 16">94%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="core_scheduler_py.html">core/scheduler.py</a></td>
+                <td>97</td>
+                <td>50</td>
+                <td>0</td>
+                
+                <td>24</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="53 121">44%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="core_serializer_py.html">core/serializer.py</a></td>
+                <td>137</td>
+                <td>77</td>
+                <td>0</td>
+                
+                <td>52</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="68 189">36%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="core_session_py.html">core/session.py</a></td>
+                <td>69</td>
+                <td>69</td>
+                <td>0</td>
+                
+                <td>10</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 79">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="core_task_py.html">core/task.py</a></td>
+                <td>240</td>
+                <td>55</td>
+                <td>0</td>
+                
+                <td>44</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="209 284">74%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="core_tests_test_channels_py.html">core/tests/test_channels.py</a></td>
+                <td>99</td>
+                <td>99</td>
+                <td>0</td>
+                
+                <td>20</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 119">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="core_tests_test_environment_py.html">core/tests/test_environment.py</a></td>
+                <td>67</td>
+                <td>67</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 67">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="core_tests_test_events_py.html">core/tests/test_events.py</a></td>
+                <td>23</td>
+                <td>23</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 27">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="core_tests_test_remote_learner_py.html">core/tests/test_remote_learner.py</a></td>
+                <td>26</td>
+                <td>26</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 30">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="core_tests_test_serializer_py.html">core/tests/test_serializer.py</a></td>
+                <td>24</td>
+                <td>24</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 26">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="core_tests_test_session_py.html">core/tests/test_session.py</a></td>
+                <td>65</td>
+                <td>65</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 69">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="core_tests_test_task_py.html">core/tests/test_task.py</a></td>
+                <td>85</td>
+                <td>85</td>
+                <td>0</td>
+                
+                <td>10</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 95">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="fsa___init___py.html">fsa/__init__.py</a></td>
+                <td>345</td>
+                <td>34</td>
+                <td>0</td>
+                
+                <td>186</td>
+                <td>9</td>
+                
+                <td class="right" data-ratio="476 531">90%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="learners_base_py.html">learners/base.py</a></td>
+                <td>49</td>
+                <td>30</td>
+                <td>0</td>
+                
+                <td>12</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="19 61">31%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="learners_human_learner_py.html">learners/human_learner.py</a></td>
+                <td>73</td>
+                <td>50</td>
+                <td>0</td>
+                
+                <td>18</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="23 91">25%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="learners_sample_learners_py.html">learners/sample_learners.py</a></td>
+                <td>44</td>
+                <td>26</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="18 48">38%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="run_py.html">run.py</a></td>
+                <td>116</td>
+                <td>116</td>
+                <td>0</td>
+                
+                <td>36</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 152">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="tasks_challenge_round1_challenge_micro_py.html">tasks/challenge/round1/challenge_micro.py</a></td>
+                <td>811</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td>166</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="969 977">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="tasks_challenge_round1_challenge_mini_py.html">tasks/challenge/round1/challenge_mini.py</a></td>
+                <td>161</td>
+                <td>26</td>
+                <td>0</td>
+                
+                <td>40</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="166 201">83%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="tasks_challenge_round1_tests_test_micro_tasks_py.html">tasks/challenge/round1/tests/test_micro_tasks.py</a></td>
+                <td>900</td>
+                <td>18</td>
+                <td>0</td>
+                
+                <td>228</td>
+                <td>10</td>
+                
+                <td class="right" data-ratio="1096 1128">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="tasks_challenge_round1_tests_test_mini_tasks_py.html">tasks/challenge/round1/tests/test_mini_tasks.py</a></td>
+                <td>190</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td>34</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="216 224">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="tasks_challenge_round1_tests_test_task_generator_py.html">tasks/challenge/round1/tests/test_task_generator.py</a></td>
+                <td>140</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="145 146">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="tasks_competition_counting_py.html">tasks/competition/counting.py</a></td>
+                <td>43</td>
+                <td>43</td>
+                <td>0</td>
+                
+                <td>10</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 53">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="tasks_competition_messages_py.html">tasks/competition/messages.py</a></td>
+                <td>32</td>
+                <td>17</td>
+                <td>0</td>
+                
+                <td>10</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="15 42">36%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="tasks_competition_navigation_py.html">tasks/competition/navigation.py</a></td>
+                <td>287</td>
+                <td>287</td>
+                <td>0</td>
+                
+                <td>68</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 355">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="tasks_competition_objects_properties_py.html">tasks/competition/objects_properties.py</a></td>
+                <td>369</td>
+                <td>369</td>
+                <td>0</td>
+                
+                <td>104</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 473">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="tasks_competition_repetition_py.html">tasks/competition/repetition.py</a></td>
+                <td>219</td>
+                <td>219</td>
+                <td>0</td>
+                
+                <td>38</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 257">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="tasks_competition_tests_helpers_py.html">tasks/competition/tests/helpers.py</a></td>
+                <td>86</td>
+                <td>18</td>
+                <td>0</td>
+                
+                <td>16</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="77 102">75%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="tasks_competition_tests_test_base_py.html">tasks/competition/tests/test_base.py</a></td>
+                <td>30</td>
+                <td>30</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 30">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="tasks_competition_tests_test_navigation_py.html">tasks/competition/tests/test_navigation.py</a></td>
+                <td>144</td>
+                <td>144</td>
+                <td>0</td>
+                
+                <td>24</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 168">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="tasks_competition_tests_test_objects_properties_py.html">tasks/competition/tests/test_objects_properties.py</a></td>
+                <td>174</td>
+                <td>174</td>
+                <td>0</td>
+                
+                <td>35</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 209">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="tasks_competition_tests_test_repetition_py.html">tasks/competition/tests/test_repetition.py</a></td>
+                <td>131</td>
+                <td>131</td>
+                <td>0</td>
+                
+                <td>12</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 143">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="tasks_competition_to_be_validated_py.html">tasks/competition/to_be_validated.py</a></td>
+                <td>397</td>
+                <td>397</td>
+                <td>0</td>
+                
+                <td>126</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 523">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="tasks_micro_micro_py.html">tasks/micro/micro.py</a></td>
+                <td>70</td>
+                <td>70</td>
+                <td>0</td>
+                
+                <td>12</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 82">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="tasks_sample_sample_tasks_py.html">tasks/sample/sample_tasks.py</a></td>
+                <td>135</td>
+                <td>135</td>
+                <td>0</td>
+                
+                <td>26</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 161">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="view_console_py.html">view/console.py</a></td>
+                <td>170</td>
+                <td>170</td>
+                <td>0</td>
+                
+                <td>26</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 196">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="view_win_console_py.html">view/win_console.py</a></td>
+                <td>162</td>
+                <td>162</td>
+                <td>0</td>
+                
+                <td>40</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 202">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="worlds_grid_world_py.html">worlds/grid_world.py</a></td>
+                <td>160</td>
+                <td>112</td>
+                <td>0</td>
+                
+                <td>40</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="48 200">24%</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v4.5.1</a>,
+            created at 2018-07-17 09:58
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
